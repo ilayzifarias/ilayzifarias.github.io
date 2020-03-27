@@ -1,0 +1,171 @@
+/* meu primeiro arquivo CSS*/
+
+/* TAGS */
+p{
+	color: white; 
+	text-align: justify;
+	font-size: 15px;
+	font-family: Lucida Calligraphy;
+	align-items: center;
+ 	width: 100%;
+  	margin: 1px;
+  	margin-top: 10px;
+  	margin-bottom: 10px;
+  	max-width: 50em;
+  	padding: 2% 1em;
+  	box-sizing: border-box;
+}
+
+h1{
+	color: #FFFFFF;
+	text-align: center;
+	font-family: Lucida Calligraphy;
+	font-size: 22px;
+	margin-top: -30px;
+}
+
+h2{
+	color: #FFFFFF;
+	text-align: center;
+	font-family: Lucida Calligraphy;
+	font-size: 25px;
+	margin-top: 0px;
+}
+
+a{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-family: Awesome Season Personal Use;
+	padding: 10px 10px 10px 20px;
+	font-size: 23px;
+}
+
+body{
+	background-color: #000000;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+
+header{
+	background-image: url('./imagem1.jpg');
+	background-size: 100%;
+	height: 115px;
+	padding: 10px;
+}
+
+footer{
+	clear: both;
+	background-image: url('./imagem1.jpg');
+	background-size: 100%;
+	height: 26px;
+	text-align: center;
+	padding: 10px;
+	color: #FFFFFF;
+}
+
+#barra a:hover{
+	padding: 20px 10px 20px 10px;
+	background-color: #000000;
+	color: #FFFFFF;
+}
+ 
+/* IDS */
+#divisão{
+	background-color: black;
+	height: 5px;
+	padding: 7px;
+}
+
+/* IDS */
+#barra{
+	clear: both;
+	background-image: url('./imagem1.jpg');
+	background-size: 100%;
+	height: 20px;
+	padding: 10px 0px 15px 0px;
+}
+
+/* IDS */
+#perfil{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -70px;
+}
+
+/* IDS */
+#barracontatos{
+	background-image: url('./imagem1.jpg');
+	background-size: 100%;
+	height: 23px;
+	padding: 10px;
+	text-align: center;
+}
+
+/* IDS */
+#divisão2{
+	background-color: black;
+	height: 6px;
+	padding: 5px;
+}
+
+/* IDS */
+#principal{
+	background-color: black;
+	background-size: 100%;
+	min-height: 100px;
+	padding: 100px;
+}
+
+/* class */
+.container{
+	width: 350px;
+	margin: 0 auto;
+}
+
+/* IDS */
+#borda{
+	width: 640px;
+	height: 230px;
+	background:black;
+	margin: auto;
+	margin-top: -40px;
+	margin-bottom: 100px;
+	padding: 5px;
+	border-radius: 10px;
+
+	background: linear-gradient(to bottom right, #201744, #8f0225);
+}
+
+/* class */
+.fundo{
+	width: 640px;
+	height: 230px;
+	border-radius: 10px;
+	background-color: black;
+}
+
+/* class */
+#borda.ajuste{
+	width: 640px;
+	height: 270px;
+	background:black;
+	margin: auto;
+	margin-top: -40px;
+	margin-bottom: 100px;
+	padding: 5px;
+	border-radius: 10px;
+
+	background: linear-gradient(to bottom right, #201744, #8f0225);
+}
+/* class */
+.ajuste .fundo{
+	width: 640px;
+	height: 270px;
+	border-radius: 10px;
+	background-color: black;
+}
